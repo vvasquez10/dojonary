@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0px 230px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav{
+    background-color: lightgray;
+    display: flex;
+}
+.nav-logo{
+    flex: 2;
+    font-size: 40px;
+    font-weight: bold;
+    padding-inline: 30px; /*padding para el resto de boxes*/
+    padding-block: 10px;
+}
+.nav-search{
+    flex: 3;
+    font-size:large;
+    background-color: white;
+    border-color: black;
+    color: black;
+    border-style: solid;
+    margin-right: 60px; 
+    margin-block: 20px;
+}
+.nav-login{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+.nav-login button{
+    font-size:large;
+    background-color: rgb(36, 89, 235);
+    border-color: black;
+    color: white;
+    border-style: solid;
+    box-shadow: 5px 3px rgb(10, 10, 10);
+    padding-inline: 15px; 
+    padding-block: 3px;
+    flex: 1;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-col-1{
+    flex: 2;
+    margin-right: 5px;
+}
+
+.main-col-1-w1, .main-col-1-w2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-style: solid;    
+}
+.main-col-1-w1{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.main-col-1-w2{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.desc{
+    padding-bottom: 10px;
+}
+.numero{
+    font-size: small;
+    padding-bottom: 10px;
+}
+.w-col-1{
+    flex: 1;
+    font-weight: bold;
+    padding-block: 10px;
+}
+.w-col-2{
+    flex: 3;
+    font-weight: bold;
+    padding: 30px;
+}
+.main-col-2{
+    background-color:lightblue;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.addButton{
+    margin-top: 30px;
+}
+
